@@ -16,8 +16,14 @@
     .white-text{
         color: #DFD9D9;
     }
-    .nav-ml-custom{
-        margin-left: 22rem;
+    .nav-ml-custom-admin{
+        margin-left: 8rem;
+    }
+     .nav-ml-custom-doc{
+        margin-left: 15rem;
+    }
+     .nav-ml-custom-rec{
+        margin-left: 20rem;
     }
 
 	.login-form {
