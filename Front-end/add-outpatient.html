@@ -20,21 +20,12 @@
 		       
 		        <div class="collapse navbar-collapse" id="navelements">
 
-		          <ul class="navbar-nav nav-ml-custom-admin nav-text">
+		          <ul class="navbar-nav nav-ml-custom-rec nav-text">
 
 		              <li class="nav-item">
-		                <a class="nav-link active" href="hms-admin.html">Home</a>
+		                <a class="nav-link active" href="hms-recep.html">Home</a>
 		              </li>
-		              <li class="nav-item">
-		                <a class="nav-link active" href="#">Departments</a>
-		              </li>
-		              <li class="nav-item dropdown">
-		                <a class="nav-link dropdown-toggle active" href="#" role="button" data-toggle="dropdown">Patients</a>
-		                <div class="dropdown-menu">
-		                	<a href="#" class="dropdown-item">In-Patients</a>
-		                	<a href="#" class="dropdown-item">Out-Patients</a>
-		                </div>
-		              </li>
+		             
 		              <li class="nav-item">
 		                <a class="nav-link active" href="#">Staff</a>
 		              </li>
@@ -48,7 +39,7 @@
 		                </div>
 		              </li>
 		               <li class="nav-item">
-		                <a class="nav-link active" href="#">Register Patient</a>
+		                <a class="nav-link active" href="register-patient-recep.html">Register Patient</a>
 		              </li>
 		              <li class="nav-item dropdown">
 		                <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown"><i class="fa fa-cog"></i></a>
@@ -59,7 +50,7 @@
 		              </li>
 
 		          </ul>
-		          <form class="form-inline">
+					<form class="form-inline">
 						<input class="form-control ml-2 mr-2" type="search" name="search" placeholder="Search">
 						<button class="btn btn-outline-info" type="submit">Search</button>
 					</form>
@@ -69,49 +60,19 @@
 		<section id="login">
 			<div class="register-form">
 				<form>
-					<h2 align="center">Register Patient</h2>
+					<h2 align="center">Add Outpatient</h2>
 					<div class="container">
 							<div class="form-row">
 								<div class="col-12">
 									<div class="form-group">
-										<input type="text" placeholder="Name of Patient" name="patient_name" class="form-control" required="required">
+										<input type="text" placeholder="Patient ID" name="patient_id" class="form-control" required="required">
 									</div>
 								</div>
 								
-								<div class="col-12 text-center form-text mt-3">
-									<div class="form-check form-check-inline">
-										<input type="radio" name="gender" id="male" class="form-check-input" required="required">
-										<label for="male" class="form-check-label">Male</label>
-									</div>
-									<div class="form-check form-check-inline">
-										<input type="radio" name="gender" id="female" class="form-check-input" required="required">
-										<label for="female" class="form-check-label">Female</label>
-									</div>
-								</div>
+								
 									<div class="col-12">
 										<div class="form-group">
-												<label for="pdob"><small style="font-weight: bold;">D.O.B</small></label>
-											<input type="date" id="pdob" placeholder="Date of Birth" name="patient_dob" class="form-control" required="required">
-										</div>
-									</div>
-									<div class="col-12">
-										<div class="form-group">
-											<input type="number" placeholder="Phone Number" name="patient_phone" class="form-control" required="required">
-										</div>
-									</div>
-									<div class="col-12">
-										<div class="form-group">
-											<input type="number" placeholder="Weight" name="patient_wt" class="form-control" required="required">
-										</div>
-									</div>
-									<div class="col-12">
-										<div class="form-group">
-											<input type="number" placeholder="Height" name="patient_ht" class="form-control" required="required">
-										</div>
-									</div>
-									<div class="col-12">
-										<div class="form-group">
-											<textarea type="text" placeholder="Allergies" name="patient_allergies" class="form-control"></textarea>
+											<textarea type="text" placeholder="Complaint" name="patient_complaint" class="form-control"></textarea>
 										</div>
 								</div>
 

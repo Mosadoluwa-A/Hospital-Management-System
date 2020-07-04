@@ -48,7 +48,10 @@
 		                </div>
 		              </li>
 		               <li class="nav-item">
-		                <a class="nav-link active" href="#">Register Patient</a>
+		                <a class="nav-link active" href="/">Add Staff</a>
+		              </li>
+		               <li class="nav-item">
+		                <a class="nav-link active" href="register-patient.html">Register Patient</a>
 		              </li>
 		              <li class="nav-item dropdown">
 		                <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown"><i class="fa fa-cog"></i></a>
@@ -67,14 +70,29 @@
 		    </nav>
 		</header>
 		<section id="login">
-			<div class="register-form">
+			<div class="staff-form">
 				<form>
-					<h2 align="center">Register Patient</h2>
+					<h2>Add Staff</h2>
 					<div class="container">
 							<div class="form-row">
 								<div class="col-12">
 									<div class="form-group">
-										<input type="text" placeholder="Name of Patient" name="patient_name" class="form-control" required="required">
+										<input type="text" placeholder="First Name" name="first_name" class="form-control" required="required">
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group">
+										<input type="text" placeholder="Last Name" name="last_name" class="form-control" required="required">
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group">
+										<input type="text" placeholder="Username" class="form-control" required="required">
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group">
+										<input type="password" placeholder="Password" class="form-control" required="required">
 									</div>
 								</div>
 								
@@ -96,17 +114,18 @@
 									</div>
 									<div class="col-12">
 										<div class="form-group">
+											<label for="role">Staff Position</label>
+											<select id="role" class="form-control">
+												<option value="admin">Admin</option>
+												<option value="doctor">Doctor</option>
+												<option value="Nurse">Nurse</option>
+												<option value="recep">Receptionist</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="form-group">
 											<input type="number" placeholder="Phone Number" name="patient_phone" class="form-control" required="required">
-										</div>
-									</div>
-									<div class="col-12">
-										<div class="form-group">
-											<input type="number" placeholder="Weight" name="patient_wt" class="form-control" required="required">
-										</div>
-									</div>
-									<div class="col-12">
-										<div class="form-group">
-											<input type="number" placeholder="Height" name="patient_ht" class="form-control" required="required">
 										</div>
 									</div>
 									<div class="col-12">

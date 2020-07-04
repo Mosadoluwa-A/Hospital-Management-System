@@ -11,13 +11,13 @@
     }
 
     .nav-text{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .white-text{
         color: #DFD9D9;
     }
     .nav-ml-custom-admin{
-        margin-left: 8rem;
+        margin-left: 5rem;
     }
      .nav-ml-custom-doc{
         margin-left: 15rem;
@@ -44,11 +44,25 @@
         margin: 0 0 15px;
     }
     .register-form {
-        width: 540px;
+        width: 640px;
         margin: 50px auto;
     }
     .register-form form {
-        margin-top: 120px;
+        margin-top: 80px;
+        margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+        border: solid;
+        border-radius: 10px;
+        border-color: #28a745;
+    }
+     .staff-form {
+        width: 740px;
+        margin: auto;
+    }
+     .staff-form form {
+        margin-top: 50px;
         margin-bottom: 15px;
         background: #f7f7f7;
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
