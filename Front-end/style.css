@@ -17,13 +17,13 @@
         color: #DFD9D9;
     }
     .nav-ml-custom-admin{
-        margin-left: 5rem;
-    }
-     .nav-ml-custom-doc{
         margin-left: 15rem;
     }
+     .nav-ml-custom-doc{
+        margin-left: 25rem;
+    }
      .nav-ml-custom-rec{
-        margin-left: 20rem;
+        margin-left: 25rem;
     }
 
 	.login-form {
@@ -92,4 +92,25 @@
     .action-trash{
         color: #dc3545;
         cursor: pointer;
+    }
+    .patient-pic{
+        width: 8rem;
+    }
+    .admit-btn{
+        width: 6rem; 
+        height: 1rem;  
+        border-radius: 2rem;
+    }
+    .case-note-card{
+        margin-left: 17rem;
+    }
+    .case-note-details{
+        margin-left: 3rem;
+    }
+    .case-note-detail-text{
+        font-size: 1.1rem;
+        font-family: sansita;
+    }
+    .progress-timestamp{
+        margin-left: 20rem;
     }
