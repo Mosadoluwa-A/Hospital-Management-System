@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Hospital Admin</title>
+		<title>Hospital</title>
 		<!-- <link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
 		 --><link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 			<link rel="stylesheet" type="text/css" href="bootstrap/css/all.min.css">
@@ -9,7 +9,7 @@
 			<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body class="home-bg">
-		<header id="header">
+        <header id="header">
 		    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
 		       <a class="navbar-brand bigger-brand" href="#">Hospital Logo</a>
@@ -58,32 +58,30 @@
 		        </div>
 		    </nav>
 		</header>
-		<main id="main" class="container">
-			
-				<h1 class="white-text text-center">Patient Progress Report</h1>&nbsp;&nbsp;&nbsp;
-			
-            <div class="card border-success w-50 case-note-card ">
-                <div class="card-body">
-                    <h3 class="card-title text-center"> John Doe's Progress Report &nbsp; <a href="add-patient-progress.html"><i class="fas fa-plus-square"></i></a> </h3>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Started treatment with Propanol &nbsp;&nbsp;&nbsp; <a href="edit-patient-progress.html"><i class="fas fa-edit"></i></a> <br>
-                            <small class="text-muted progress-timestamp">24th Jan 2020 12:54pm</small> 
-                        </li>
-                        <li class="list-group-item">Given diuretics due to persistence hypertension  &nbsp;&nbsp;&nbsp; <a href="edit-patient-progress.html"><i class="fas fa-edit"></i></a> <br>
-                            <small class="progress-timestamp text-muted">25th Jan 2020 8:04am</small> </li>
-                        <li class="list-group-item">Began new diet &nbsp;&nbsp;&nbsp; <a href="edit-patient-progress.html"><i class="fas fa-edit"></i></a> <br>
-                            <small class="text-muted progress-timestamp">16th Feb 2020 8am</small> </li>
-                        <li class="list-group-item">Patient started on Nifedipine &nbsp;&nbsp;&nbsp; <a href="edit-patient-progress.html"><i class="fas fa-edit"></i></a> <br>
-                            <small class="text-muted progress-timestamp">24th Feb 2020 12:54pm</small> </li>
-                        <li class="list-group-item">Patient fully recovered and discharaged &nbsp;&nbsp;&nbsp; <a href="edit-patient-progress.html"><i class="fas fa-edit"></i></a> <br>
-                            <small class="text-muted progress-timestamp">1st March 2020 9am</small> </li>
-                    </ul>
-                </div>
-            </div>
-		</main>
+		<section id="login">
+			<div class="register-form">
+				<form>
+					<h2 class="text-center">Add Patient Note</h2>
+					<div class="container">
+							<div class="form-row">
+								<div class="col-12">
+								    <div class="form-group">
+										<textarea type="text" placeholder="Type patient progress" name="patient_progress" class="form-control"></textarea>
+									</div>
+								</div>
+
+						</div>
+						<div class="form-group">
+									<p class="text-center"><button type="submit" class="btn btn-success btn-block">Add</button></p>
+								</div>
+					</div>
+				</form>
+
+			</div>
+		</section>
 
 		<footer id="cr">
-			<p class="mt-5 white-text">&copy; Copyright 2020 <strong>Mosadoluwa Agbonyin</strong> </p>
+			<p class="white-text">&copy; Copyright 2020 <strong>Mosadoluwa Agbonyin</strong> </p>
 		</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
