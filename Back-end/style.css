@@ -1,0 +1,116 @@
+    .login-bg{
+		background-color: #F08080;
+	}
+
+    .home-bg{
+        background-color: #1D2a40;
+    }
+
+    .bigger-brand{
+        font-size: 2rem;
+    }
+
+    .nav-text{
+        font-size: 1.1rem;
+    }
+    .white-text{
+        color: #DFD9D9;
+    }
+    .nav-ml-custom-admin{
+        margin-left: 15rem;
+    }
+     .nav-ml-custom-doc{
+        margin-left: 25rem;
+    }
+     .nav-ml-custom-rec{
+        margin-left: 25rem;
+    }
+
+	.login-form {
+		width: 340px;
+    	margin: 50px auto;
+	}
+    .login-form form {
+    	margin-top: 120px;
+    	margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+        border: solid;
+        border-radius: 10px;
+        border-color: #DC143C;
+    }
+    .login-form h2 {
+        margin: 0 0 15px;
+    }
+    .register-form {
+        width: 640px;
+        margin: 50px auto;
+    }
+    .register-form form {
+        margin-top: 80px;
+        margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+        border: solid;
+        border-radius: 10px;
+        border-color: #28a745;
+    }
+     .staff-form {
+        width: 740px;
+        margin: auto;
+    }
+     .staff-form form {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+        border: solid;
+        border-radius: 10px;
+        border-color: #28a745;
+    }
+    .form-control, .btn {
+        min-height: 38px;
+        border-radius: 5px;
+    }
+    .btn {        
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #cr{
+    	margin-left: 550px;
+    }
+    .bigger-card-text{
+        font-size: 2rem;
+    }
+    .action-check{
+        color: green;
+        cursor: pointer;
+    }
+    .action-trash{
+        color: #dc3545;
+        cursor: pointer;
+    }
+    .patient-pic{
+        width: 8rem;
+    }
+    .admit-btn{
+        width: 6rem; 
+        height: 1rem;  
+        border-radius: 2rem;
+    }
+    .case-note-card{
+        margin-left: 17rem;
+    }
+    .case-note-details{
+        margin-left: 3rem;
+    }
+    .case-note-detail-text{
+        font-size: 1.1rem;
+        font-family: sansita;
+    }
+    .progress-timestamp{
+        margin-left: 20rem;
+    }
